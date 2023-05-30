@@ -10,6 +10,10 @@ if (10 === 10) {
     var tempName = 'Jen'
 }
 console.log(tempName)
+let tempFunction = function(){
+    var inFunctionVar = 'hello'
+    console.log(inFunctionVar)
+}
 
 // You can also access a var variable before it is defined.
 console.log(varAge)
